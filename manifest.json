@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "Next-Day",
+    "description": "App store十分文艺暖心的一款app的插件版，关注微信公众号：’太晚‘，同样会有很暖心的东西。作者：才华横溢的猪。",
+    "version": "1.0",
+    "permissions": [
+	"contextMenus", "tabs",
+        "https://*/*",
+        "http://*/*"
+    ],
+    "browser_action": {
+        "default_icon": "icon.png",
+		"default_title": "Next-Day(Plug-in)",
+        "default_popup": "main.min.html"
+    },
+	"offline_enabled":false,
+	"update_url": "http://upext.chrome.360.cn/intf.php?method=ExtUpdate.query"
+}
