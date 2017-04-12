@@ -1,0 +1,3 @@
+*.js linguist-language=JavaScript
+*.css linguist-language=Scala
+*.html linguist-language=JavaScript
